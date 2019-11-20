@@ -19,7 +19,7 @@ export const initialState = {
 
 export const appReducer = (state = initialState, action) => {
     switch(action.type) {
-        case REMOVE_FEATURE:
+       /* case REMOVE_FEATURE:
             return state.car.features.filter(item => 
                 item.id !== action.payload
             );
@@ -27,7 +27,7 @@ export const appReducer = (state = initialState, action) => {
             return {
                 ...state.car,
                 features: action.payload
-            };
+            };*/
         default:
             return state;            
     }
