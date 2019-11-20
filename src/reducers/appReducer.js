@@ -22,7 +22,10 @@ export const appReducer = (state = initialState, action) => {
         case REMOVE_FEATURE:
             return {
                 ...state,
-                car: {
+                car: { 
+                    price: state.car.price,
+                    name: state.car.name,
+                    image: state.car.image, 
                     features: state.car.features.filter(item => 
                         item.id !== action.payload)
                 }
