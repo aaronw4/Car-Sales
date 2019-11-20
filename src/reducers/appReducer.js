@@ -1,3 +1,4 @@
+import {REMOVE_FEATURE, BUY_ITEM} from '../actions/index'
 
 export const initialState = {
     additionalPrice: 0,
@@ -20,7 +21,7 @@ export const appReducer = (state = initialState, action) => {
     switch(action.type) {
         case REMOVE_FEATURE:
             return state.car.features.filter(item => 
-                !item.id
+                item.id !== action.payload
             );
         case BUY_ITEM:
             return {
