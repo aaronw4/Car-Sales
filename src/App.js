@@ -30,4 +30,8 @@ const App = () => {
   );
 };
 
+export default connect(
+  {removeFeature, buyItem}
+)(App);
+
 export default App;
