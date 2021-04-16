@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Car-Sales/static/css/main.c0d74d11.chunk.css",
+    "main.js": "/Car-Sales/static/js/main.4a035af0.chunk.js",
+    "main.js.map": "/Car-Sales/static/js/main.4a035af0.chunk.js.map",
+    "runtime~main.js": "/Car-Sales/static/js/runtime~main.94ca7d13.js",
+    "runtime~main.js.map": "/Car-Sales/static/js/runtime~main.94ca7d13.js.map",
+    "static/css/2.1ab5750d.chunk.css": "/Car-Sales/static/css/2.1ab5750d.chunk.css",
+    "static/js/2.2171e69a.chunk.js": "/Car-Sales/static/js/2.2171e69a.chunk.js",
+    "static/js/2.2171e69a.chunk.js.map": "/Car-Sales/static/js/2.2171e69a.chunk.js.map",
+    "index.html": "/Car-Sales/index.html",
+    "precache-manifest.9c6d5f311cd425d3b5e520053275a37a.js": "/Car-Sales/precache-manifest.9c6d5f311cd425d3b5e520053275a37a.js",
+    "service-worker.js": "/Car-Sales/service-worker.js",
+    "static/css/2.1ab5750d.chunk.css.map": "/Car-Sales/static/css/2.1ab5750d.chunk.css.map",
+    "static/css/main.c0d74d11.chunk.css.map": "/Car-Sales/static/css/main.c0d74d11.chunk.css.map"
+  }
+}
