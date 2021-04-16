@@ -27,8 +27,9 @@ export const appReducer = (state = initialState, action) => {
                     name: state.car.name,
                     image: state.car.image, 
                     features: state.car.features.filter(item => 
-                        item.id !== action.payload)
-                }
+                        item.id !== action.payload.id)
+                },
+                additionalFeatures: [...state.additionalFeatures, action.payload]
             }
         case BUY_ITEM:
             return {
@@ -38,7 +39,10 @@ export const appReducer = (state = initialState, action) => {
                     name: state.car.name,
                     image: state.car.image,           
                     features: [...state.car.features, action.payload]
-                }                
+                },
+                additionalFeatures: state.additionalFeatures.filter(item => 
+                    item.id !== action.payload.id
+                )                
             };
         default:
             return state;            
